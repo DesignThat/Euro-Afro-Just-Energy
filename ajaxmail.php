@@ -20,7 +20,7 @@ if(isset($_POST) && !empty($_POST)){
 	}
 	
 	if($sendMessage != ''){
-		$fromEmail = 'testing@designthat.digital';
+		$fromEmail = 'testing@designthat.dev';
 		$toEmail = '$email';
 		
 		$headers = "MIME-Version: 1.0" . "\r\n";
